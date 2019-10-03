@@ -1,6 +1,7 @@
-header{
+.contour{
     background-color: #071D60;
     color: white;
+    padding:1%;
 }
 
 #barre{
@@ -8,6 +9,21 @@ header{
     color: white;
     size: 10px;
     text-align: center;
+    padding:6% ;
+}
+.texte{
+    display: inline-block;
+    max-width: 40%;
 }
 
+.greyheadcat{
+}
+
+footer{
+    text-align: center;
+}
+.imagecat{
+    display:inline-block;
+    max-width: 30%;
+}
 <!-- #id balise -->

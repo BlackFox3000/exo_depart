@@ -3,50 +3,60 @@
 
 <head>
     <title>OhMyCats !</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="home.css">
+    <meta name="viewport" content="width=500, initial-scale=1">
 </head>
 
 <header>
-    OhMyCats !
+    <!-- nav -->
+    <div class="contour">
+    OhMyCats !</div>
+
 </header>
-<div id="barre">
-    Adoptez un chat trop bon !
-</div>
-<div id="formulaire">
-    Les chats à adopter
-    <form id="adoption_chat">
-        <fieldset>
-            <!-- menu déroulant -->
-            <label id="choix"> Choix du chat : </label>
-            <select name="chat">
-                <option value="sushi">sushi</option>
-                <option value="chat1">chat1</option>
-                <option value="chat2">chat2</option>
-                <option value="chat3">chat3</option>
-            </select>
-            <br><br>
-
-            <!-- case paragraphe -->
-            <label> Raison d'adoption : </label>
-
-            <!-- bouton envoyer -->
-            <input type="submit" value="Envoyer">
-        </fieldset>
-    </form>
-</div>
-<!-- images chat -->
-<div id="image">
-    <img src="../img/chat.jpg">
-</div>
-
-<footer>
-    <h1>Nos chats à adopter...</h1>
-
-    <div id="text">
-        Diligentia continuo hoc Qui existimatis suspicioni locum M istam continuo ut deditšnihil Caelium patre hoc
-        artibus isti honestissimis istam orationem deinde castissima istam hoc aut deditšnihil deductum Caelium aetatis
-        continuo.
+<main>
+    <div id="barre">
+        Adoptez un chat trop bon !
     </div>
-    <img src="../img/tete-chat.png">
+    <div id="formulaire">
+        Les chats à adopter
+        <form id="adoption_chat">
+            <fieldset>
+                <!-- menu déroulant -->
+                <label id="choix"> Choix du chat : </label>
+                <select name="chat" value="test">
+                    <option value="sushi">sushi</option>
+                    <option value="chat1">chat1</option>
+                    <option value="chat2">chat2</option>
+                    <option value="chat3">chat3</option>
+                </select>
+                <br><br>
+
+                <!-- case paragraphe -->
+                <label> Raison d'adoption : </label>
+
+                <!-- bouton envoyer -->
+                <input type="submit" value="Envoyer">
+            </fieldset>
+        </form>
+    </div>
+    <!-- images chat -->
+    <div id="image">
+        <img src="../img/chat.jpg">
+    </div>
+</main>
+<footer>
+        <div class="texte">
+            <h1 class="footer">Nos chats à adopter...</h1>
+            <div id="text" class="footer">
+                Diligentia continuo hoc Qui existimatis suspicioni locum M istam continuo ut deditšnihil Caelium patre hoc
+                artibus isti honestissimis istam orationem deinde castissima istam hoc aut deditšnihil deductum Caelium aetatis
+                continuo.
+            </div>
+        </div>
+    <div class="imagecat">
+        <img class="greyheadcat" src="../img/tete-chat.png">
+    </div>
+    <div class="contour"></div>
 </footer>
 </html>
